@@ -13,8 +13,6 @@ for countries in soup.findAll("div", {"class": "colmask"}): # Iterates through e
     for city in countries.findAll("a"): 
         CraigslistCityLinks.append(city["href"]) # Adds links of all cities to var
 
-
-print(len(CraigslistCityLinks))
 CraigslistJobsURLs = [] # URLs for the sections under the "jobs" header on the Craigslist website
 CraigslistGigsURLs = [] # URLs for the sections under the "gigs" header on the Craigslist website
 opportunitiesURLs = []
