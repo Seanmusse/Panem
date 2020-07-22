@@ -43,6 +43,7 @@ Panem aims to make beermoney more accessible to everyone by crawling through car
 - Works in a faulty manner outside cities in the US
 - Takes a very long time to run (1.8 minutes per city, there are 714 which means the program will take 21.4 hours to complete)
 - Not very customizable
+- Universal fix for scrollback buffering
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
 I will work on all of the listed limitations and frequently update this program. I would also like to make this program's scale larger, by making it desireable to a large audience. 
